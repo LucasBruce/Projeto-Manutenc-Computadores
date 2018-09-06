@@ -1,0 +1,85 @@
+Cadastre-se>Dados pessoais
+Formulário de cadastro
+por Lucas Bruce
+Atualizado em 01/Setembro/2018
+
+
+
+Identificação do Usuário
+
+    Nome:
+
+    Senha:
+
+    E-mail:
+
+    Sexo:
+ 
+       - Masculino
+
+        - Feminino
+
+    Data de Nascimento:
+
+
+
+
+
+Endereço do Usuário
+ 
+   Logradouro:
+
+       Número:
+ 
+       Estado:
+
+      Rio de Janeiro
+
+      São Paulo
+ 
+     Minas Gerais
+
+ 
+
+     Paraná
+
+      Santa Catarina
+ 
+     Rio Grande do Sul
+
+
+           Cidade:
+      
+  Rio de Janeiro
+
+     Nova Iguaçu
+
+         Niterói
+  
+    Belford Roxo
+
+
+
+
+
+Mensagem do Usuário
+
+    Grau de Felicidade:
+    Mensagem:
+
+
+
+
+Quero um Gabinete
+    Gostaria de adquirir um Gabinete quando disponível
+
+    Cor:
+
+    Quantidade:
+
+    Preço Total: 
+
+R$
+
+
+[BOTÃO ENVIAR]

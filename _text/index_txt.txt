@@ -1,0 +1,77 @@
+<menu
+  -Home
+  -arquitetura
+  -imagens
+  -tutorias
+  -cadastre-se
+  -Fontes
+>
+
+
+<
+h1-Arquitetura e Montagem
+h2-Montagem e manutenção de computadores
+
+     -IMAGEM LOGO                                         -IMAGEM ICONE
+>
+
+
+<
+   Tutorias>Técnicos
+
+   Informações e curiosidades dos computadores
+
+     por Lucas Bruce
+                               -Atualizado em 26/agosto/2018
+
+-Manutenção de PC
+
+Alguma vez você já teve a curiosidade de saber o que tem por dentro do seu computador? 
+Eu aposto que sim! Afinal, todos um dia já se perguntaram o que é que tem lá dentro que
+ faz tudo funcionar magicamente do jeito que funciona.
+
+-IMAGEM-legenda:h3-Computadores p-Manutenção deles não é tão difícil como parece
+
+-Curiosidades
+
+Computadores de escritorios são popularmente conhecidos como CPUs, mas na verdade o termo correto seria gabinetes.
+ CPU é a unidade central de processamento do computador que se localiza dentro do gabinete, ele não é o computador
+ em si, mas é uma parte dele. Realiza as instruções de um programa de computador, para executar a aritmética básica,
+ lógica, e a entrada e saída de dados. A CPU tem papel parecido ao cérebro no computador. O termo vem sendo usado
+ desde o início de 1960. A forma, desenho e implementação mudaram drasticamente desde os primeiros exemplos, porém 
+o seu funcionamento fundamental permanece o mesmo.
+
+-Noticias:
+
+https://www.youtube.com/watch?v=xT2vUpDMqoE&feature=youtu.be
+
+-Computador Quântico
+
+é um dispositivo que executa cálculos fazendo uso direto de propriedades da mecânica quântica, tais como sobreposição e
+ interferência. Teoricamente, computadores quânticos podem ser implementados e o mais desenvolvido atualmente,o D-Wave Two,
+ trabalha com 512 qubits de informação. O principal ganho desses computadores é a possibilidade de resolver algoritmos num tempo
+ eficiente, alguns problemas que na computação clássica levariam tempo impraticável (exponencial no tamanho da entrada), como por
+ exemplo, a fatoração em primos de números naturais. A redução do tempo de resolução deste problema possibilitaria a quebra da
+ maioria dos sistemas de criptografia usados atualmente. Contudo, o computador quântico ofereceria um novo esquema de canal mais 
+seguro. Computadores quânticos são diferentes de computadores clássicos tais como computadores de DNA e computadores baseados em 
+transístores, ainda que estes utilizem alguns efeitos da mecânica quântica.
+
+-Novidades
+
+-SLIDES AUTOMÁTICO DE IMAGENS JQUERY
+
+Dentro da Big Blue, a computação quântica tem dado passos largos. Em março de 2017, a empresa anunciou o IBM Q, uma plataforma que
+ abriga computação quântica na nuvem e pode ser usada nos moldes das demais soluções cognitivas da IBM, com APIs para desenvolvedores
+ e cientistas. Em novembro do mesmo ano, a companhia revelou dois novos processadores de computadores quânticos, de 20 qubits e 50 qubits
+ - até o momento o computador quântico mais poderoso possui 2000 qubits e foi lançado pela D-Wave Sistems.
+
+-GIF ATOMO
+
+Enquanto um bit é binário e assume apenas valores 1 ou 0, o qubit (bit quântico) pode ser 1, 0 ou os dois ao mesmo tempo. O fato de um qubit
+ poder assumir três valores em vez de um é que torna possível realizar cálculos até então inviáveis. Como o sistema não funciona de forma linear,
+ ele também pode calcular todas as possibilidades de um problema ao mesmo tempo. 
+
+>
+
+Copyright © 2018 - by Lucas Bruce 
+github | linkedin

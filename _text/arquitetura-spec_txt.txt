@@ -1,0 +1,38 @@
+h1-Fonte de Alimentação
+h2-As funções da fonte
+<-IMAGEM->
+p- fonte inicia o processo de distribuição de energia para os componentes do micro. Ela leva energia a 
+todos os componentes.
+
+
+h1-Leitor e gravador de CD/DVD
+h2-Descrição do Leitor
+<-IMAGENS->
+p-O leitor e gravador de CD/DVD é um aparelho que reconhece as informações armazenadas nas mídias e 
+transmite estas informações para o aparelho eletrônico, que lê e interpreta os dados. Este aparelho 
+pode ser um computador, um aparelho de DVD, ou qualquer outro dispositivo que tenha um leitor óptico
+ compatível com o tipo de mídia.
+
+
+h1-Placa Mãe
+h2-Funcionalidades
+<-IMAGENS->
+p-A placa mãe (do inglês: mainboard ou motherboard) é a parte do computador responsável por conectar 
+e interligar todos os componentes do computador, ou seja, processador com memória RAM, disco rígido,
+ placa gráfica, entre outros. Além de permitir o tráfego de informação, a placa também alimenta 
+alguns periféricos com a energia elétrica que recebe da fonte de alimentação.
+
+
+h1-Disco Rígido (HD)
+h2-Armazenamento
+<-IMAGENS->
+p-O HD, Hard disk ou disco rígido, é um componente de hardware do computador. Sua utilidade é o 
+armazenamento de dados. Isto significa que quando algum arquivo é armazenado, ele não se perde com o
+ desligamento da máquina (como acontece com a memória RAM).
+
+
+h1-Placa de Rede
+h2-Comunicação
+A placa de rede é o hardware que permite aos computadores conversarem entre si através da rede.
+ A sua função é controlar todo o envio e recepção de dados através da rede. 
+<-IMAGENS->

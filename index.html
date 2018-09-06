@@ -1,0 +1,104 @@
+<html lang="pt-br">
+<head>
+ <meta charset="utf-8"/>
+  <title>computer</title>
+   <link rel="stylesheet" href="_css/style.css"/>
+    <script>
+function mudaFoto(foto){
+  document.getElementById("icone").src=foto;
+}
+    </script>
+</head>
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Arquitetura e Montagem</h1>
+    <h2>Montagem e manutenção de computadores</h2>
+    </hgroup>
+
+<img id="icone" src="_imagens/icone-computer.png"/>
+
+<nav id="menu">
+  <ul type="disc">
+  <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="index.html" target="_self">Home</a></li>
+  <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="arq.html" target="_self">arquitetura</a></li>
+  <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="galeria.html" target="_self">imagens</a></li>
+  <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="tutorias.html" target="_self">tutorias</a></li>
+  <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="cadastro.html" target="_self">cadastre-se</a></li>
+  <li onmouseover="mudaFoto(_imagens/fonts.png)" onmouseout="mudaFoto(_imagens/icone-computer.png)"><a href="fonts.html" target="_self">Fontes</a></li>
+  </ul>
+</nav>
+</header>
+
+<section id="corpo">
+  <article id="noticia-principal">
+    <header id="cabecalho-artigo">
+     <h3>Tutorias>Técnicos</h3>
+     <h1>Informações e curiosidades</h1>
+     <h2>por Lucas Bruce</h2>
+     <h3 class="direita">Atualizado em 26/agosto/2018</h3>
+</header>
+
+  <h2>Manutenção de PC</h2>
+  <p>Alguma vez você já teve a curiosidade de saber o que tem por dentro do seu computador?
+  Eu aposto que sim! Afinal, todos um dia já se perguntaram o que é que tem lá dentro que
+   faz tudo funcionar magicamente do jeito que funciona.</p>
+
+  <figure class="img-legenda">
+    <img src="_imagens/homem-gabinete.jpg"/>
+    <figcaption>
+     <h3>Computadores:</h3>
+     <p> A Manutenção deles não é tão difícil como parece.</p>
+   </figcaption>
+</figure>
+
+  <h2>Curiosidades</h2>
+  <p>Computadores de escritorios são popularmente conhecidos como CPUs, mas na verdade o termo correto seria gabinetes.
+   CPU é a unidade central de processamento do computador que se localiza dentro do gabinete, ele não é o computador
+   em si, mas é uma parte dele. Realiza as instruções de um programa de computador, para executar a aritmética básica,
+   lógica, e a entrada e saída de dados. A CPU tem papel parecido ao cérebro no computador. O termo vem sendo usado
+   desde o início de 1960. A forma, desenho e implementação mudaram drasticamente desde os primeiros exemplos, porém
+  o seu funcionamento fundamental permanece o mesmo.</p>
+</article>
+</section>
+
+<aside id="lateral">
+  <h1>Noticias</h1>
+
+<iframe width="350" height="315" src="https://www.youtube.com/embed/xT2vUpDMqoE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  <h2>Computador Quântico</h2>
+
+  <p>É um dispositivo que executa cálculos fazendo uso direto de propriedades da mecánica quântica, tais como sobreposição e
+   interferência. Teoricamente, computadores quânticos podem ser implementados e o mais desenvolvido atualmente,o D-Wave Two,
+   trabalha com 512 qubits de informação. O principal ganho desses computadores é a possibilidade de resolver algoritmos num tempo
+   eficiente, alguns problemas que na computação clássica levariam tempo impraticável (exponencial no tamanho da entrada), como por
+   exemplo, a fatoração em primos de números naturais. A redução do tempo de resolução deste problema possibilitaria a quebra da
+   maioria dos sistemas de criptografia usados atualmente. Contudo, o computador quântico ofereceria um novo esquema de canal mais
+  seguro. Computadores quânticos são diferentes de computadores clássicos tais como computadores de DNA e computadores baseados em
+  transistores, ainda que estes utilizem alguns efeitos da mecânica quântica.</p>
+
+  <h2>Novidades</h2>
+
+  [SLIDES AUTOM�TICO DE IMAGENS JQUERY]
+
+  <p>Dentro da Big Blue, a computação quântica tem dado passos largos. Em março de 2017, a empresa anunciou o IBM Q, uma plataforma que
+   abriga computação quântica na nuvem e pode ser usada nos moldes das demais soluções cognitivas da IBM, com APIs para desenvolvedores
+   e cientistas. Em novembro do mesmo ano, a companhia revelou dois novos processadores de computadores quânticos, de 20 qubits e 50 qubits
+   - até o momento o computador quântico mais poderoso possui 2000 qubits e foi lançado pela D-Wave Sistems.</p>
+
+<img id="gif-img" src="_imagens/atomo.gif"/>
+
+  <p>Enquanto um bit é binário e assume apenas valores 1 ou 0, o qubit (bit quântico) pode ser 1, 0 ou os dois ao mesmo tempo. O fato de um qubit
+   poder assumir trás valores em vez de um é que torna possível realizar cálculos até então inviáveis. Como o sistema não funciona de forma linear,
+   ele também pode calcular todas as possibilidades de um problema ao mesmo tempo.</p>
+</aside>
+
+<footer id="rodape">
+<p>Copyright &copyright; 2018 - by Lucas Bruce<br/>
+  <a href="https://github.com/LucasBruce" target="_blank">github</a> | <a href="https://br.linkedin.com/in/lucas-matheus-bruce-silva-90a934127" target="blank">linkedin</a> | <a href="https://www.facebook.com/lucas.matheus.35513" target="blank">facebook</a></p>
+</footer>
+</div>
+</body>
+</html>

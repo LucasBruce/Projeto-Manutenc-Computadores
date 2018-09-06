@@ -1,0 +1,9 @@
+Gabinete>Arquitetura
+Explorando a arquitetura
+por Lucas Bruce
+Atualizado em 01/Setembro/2018
+
+p-Clique em qualquer área destacada da imagem para ter mais informações sobre
+os componentes do computador. Qualquer circulo vermelho vai te levar a um lugar 
+cheio de novas informações.
+
