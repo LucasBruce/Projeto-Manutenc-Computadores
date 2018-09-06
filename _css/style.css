@@ -1,10 +1,15 @@
 @charset "utf-8";
+@font-face{
+  font-family: FonteLog;
+  src: url("../_fonts/Insomniax.otf");
+}
+@import url('https://fonts.googleapis.com/css?family=Arvo|Inconsolata');
 
 body{
   font-family: Arial, sans-serif;
   background-color: #dddddd;
   color: rgba(0,0,0,1);
-  background: url("../_imagens/circuito1.png") ;
+  background: url("../_imagens/imgur.jpg") ;
 }
 
 div#interface{
@@ -33,7 +38,7 @@ header#cabecalho{
 }
 
 header#cabecalho h1{
-  font-family: arial, sans-serif;
+  font-family: 'FonteLog', sans-serif;
   font-size: 30pt;
   color: #606060;
   text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -43,7 +48,7 @@ header#cabecalho h1{
 }
 
 header#cabecalho h2{
-  font-family: Arial, sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 15pt;
   color: #888888;
   padding: 0px;
@@ -127,7 +132,19 @@ section#corpo{
   width: 500px;
   float: left;
   border-right: 1px solid #606060;
+  background-color: #dddddd;
   padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+section#corpo h1{
+  color: #888888;
+}
+
+section#corpo p span{
+  color: #000000;
+  font-weight: bold;
 }
 
 aside#lateral{
@@ -164,12 +181,15 @@ footer#rodape p{
   text-align: center;
 }
 
+footer#rodape p span{
+  margin-left: 50px;
+}
 /*formatacao de artigo*/
 
 article#noticia-principal h2{
   font-size: 13pt;
-  color: #606060;
-  background-color: #dddddd;
+  color: #ffffff;
+  background-color: #606060;
   padding: 5px 0px 5px 10px;
   margin: 10px 0px 10px 0px;
 }
@@ -183,9 +203,9 @@ header#cabecalho-artigo h1{
 }
 
 header#cabecalho-artigo h2{
-  background-color: #ffffff;
+  background-color: #dddddd;
   font-size: 13pt;
-  color: #cecece;
+  color: #888888;
   margin: 0px;
 }
 
