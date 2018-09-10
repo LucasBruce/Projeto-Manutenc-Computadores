@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+section#content{
+  width: 1000px;
+  margin: auto;
+}
+
+.scroll-hidden{
+  display: block;
+  float: right;
+  width: 390px;
+  height: 250px;
+  overflow: hidden;
+  margin-right: 90px;
+}
+
+iframe#frame-det{
+  width: 405px;
+  height: 300px;
+  border: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

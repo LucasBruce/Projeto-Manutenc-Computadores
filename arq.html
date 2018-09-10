@@ -1,0 +1,92 @@
+<html lang="pt-br">
+<head>
+ <meta charset="utf-8"/>
+  <title>computer</title>
+   <link rel="stylesheet" href="_css/style.css"/>
+   <link rel="stylesheet" href="_css/arq.css"/>
+    <script>
+function mudaFoto(foto){
+  document.getElementById("icone").src=foto;
+}
+    </script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Arvo|Inconsolata');
+
+      header#cabecalho-art h1{
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      header#cabecalho-art h2{
+        background-color: #ffffff;
+        font-size: 13pt;
+        color: #cecece;
+        margin: 0px;
+      }
+
+      header#cabecalho-art h3{
+        color: #606060;
+        font-size: 12pt;
+      }
+    </style>
+</head>
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Arquitetura e Montagem</h1>
+    <h2>Montagem e manutenção de computadores</h2>
+    </hgroup>
+
+<img id="icone" src="_imagens/icone-computer.png"/>
+
+<nav id="menu">
+  <ul type="disc">
+  <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="index.html" target="_self">Home</a></li>
+  <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="arq.html" target="_self">arquitetura</a></li>
+  <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="galeria.html" target="_self">imagens</a></li>
+  <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="tutorias.html" target="_self">tutorias</a></li>
+  <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="cadastro.html" target="_self">cadastre-se</a></li>
+  <li onmouseover="mudaFoto('_imagens/fonts.png')" onmouseout="mudaFoto('_imagens/icone-computer.png')"><a href="fonts.html" target="_self">Fontes</a></li>
+  </ul>
+</nav>
+</header>
+
+<section id="corpo-comp">
+  <article id="noticia-principal">
+    <header id="cabecalho-art">
+     <h3>Gabinete>Arquitetura</h3>
+     <h1>Explorando a arquitetura</h1>
+     <h2>por Lucas Bruce</h2>
+     <h3 class="direita">Atualizado em 01/09/2018</h3>
+</header>
+
+
+<p>Clique em qualquer área destacada da imagem para ter mais informações sobre
+os componentes do computador. Qualquer circulo vermelho vai te levar a um lugar
+cheio de novas informações.<p>
+
+  <section id="content">
+    <img src="_imagens/arquitetura-pc.jpg" usemap="mymap"/>
+    <map name="mymap">
+      <area shape="poly" coords="27,61,84,42,150,60,142,92,82,110,36,97" href="arq-text.html#fonte" target="janela"/>
+      <area shape="circle" coords="281,63,50" href="arq-text.html#leitor" target="janela"/>
+      <area shape="circle" coords="100,167,44" href="arq-text.html#placa-mae" target="janela"/>
+      <area shape="circle" coords="273,172,50" href="arq-text.html#disco" target="janela"/>
+      <area shape="circle" coords="119,258,35" href="arq-text.html#placa-rede" target="janela"/>
+    </map>
+    <div class="scroll-hidden">
+      <iframe src="arq-text.html" id="frame-det" name="janela"></iframe>
+    </div>
+  <section/>
+</article>
+<footer id="rodape">
+<p>Copyright &copy; 2018 - by Lucas Bruce<br/>
+  <span><a href="https://github.com/LucasBruce" target="_blank">Github</a> | <a href="https://br.linkedin.com/in/lucas-matheus-bruce-silva-90a934127" target="blank">Linkedin</a> | <a href="https://www.facebook.com/lucas.matheus.35513" target="blank">Facebook</a></span></p>
+</footer>
+</div>
+</body>
+</html>
