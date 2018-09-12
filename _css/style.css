@@ -25,6 +25,14 @@ p{
   text-indent: 50px;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 header#cabecalho img#icone{
   position: absolute;
   top: 110px;
@@ -216,4 +224,46 @@ header#cabecalho-artigo h3{
 
 .direita{
   text-align: right;
+}
+
+/*formatacao de tabela*/
+
+table#tabelafonts{
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin: 50px auto 50px auto;
+}
+
+
+
+table#tabelafonts td{
+  border: 1px solid #606060;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table#tabelafonts td.ce{
+  background-color: #606060;
+  color: #ffffff;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+table#tabelafonts td.cd{
+  background-color: #cecece;
+}
+
+table#tabelafonts caption{
+  color: #888888;
+  font-size: 13pt;
+  font-weight: bolder;
+}
+
+table#tabelafonts caption span{
+  display: block;
+  float: right;
+  color: #000000;
+  font-size: 9pt;
+  margin-top: 8px;
 }

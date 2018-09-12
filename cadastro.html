@@ -1,13 +1,58 @@
 <html lang="pt-br">
 <head>
  <meta charset="utf-8"/>
-  <title>computer</title>
+  <title>Cadastro</title>
    <link rel="stylesheet" href="_css/style.css"/>
+   <link rel="stylesheet" href="_css/cadastro.css"/>
     <script>
 function mudaFoto(foto){
   document.getElementById("icone").src=foto;
 }
+
+function calc_tot(){
+  var curso = document.getElementById("cCursos").value;
+  if(curso == "MN"){
+    tot = 85;
+
+  }else if(curso == "MMM"){
+    tot = 100;
+
+  }else if(curso == "LP"){
+    tot = 50;
+
+  }else if(curso == "AG"){
+    tot = 55;
+
+  }
+  document.getElementById("cTot").value = tot;
+}
+
+
+
     </script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Arvo|Inconsolata');
+
+      header#cabecalho-art h1{
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      header#cabecalho-art h2{
+        background-color: #ffffff;
+        font-size: 13pt;
+        color: #cecece;
+        margin: 0px;
+      }
+
+      header#cabecalho-art h3{
+        color: #606060;
+        font-size: 12pt;
+      }
+    </style>
 </head>
 <body>
   <div id="interface">
@@ -33,13 +78,87 @@ function mudaFoto(foto){
 
 <section id="corpo-comp">
   <article id="noticia-principal">
-    <header id="cabecalho-artigo">
-     <h3>Gabinete>Arquitetura</h3>
-     <h1>Explorando a arquitetura</h1>
+    <header id="cabecalho-art">
+     <h3>Cadastre-se > Dados pessoais</h3>
+     <h1>Formulário de cadastro</h1>
      <h2>por Lucas Bruce</h2>
      <h3 class="direita">Atualizado em 01/09/2018</h3>
 </header>
+<fieldset>
 
+<form method="post" action="model" oninput="calc_tot();">
+
+
+<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+      <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="40" placeholder="Nome Completo"/></p>
+      <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos"/></p>
+      <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="@E-mail"/></p>
+<fieldset id="sexo"><legend>Sexo:</legend>
+         <p><input type="radio" name="tSexo" id="cMusc" checked/><label for="cMusc">Masculino</label></p>
+         <p><input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label></p>
+</fieldset>
+      <p><label for="cNasc">Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></p>
+</fieldset>
+
+
+<fieldset id="endereco"><legend>Endereco do Usuário</legend>
+     <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Trav, Av..."/></p>
+     <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="9999" value="0"/></p>
+     <p><label for="cEst">Estado:</label>
+       <select name="tEst" id="cEst">
+         <optgroup label="Região Sudoeste">
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP" selected>São Paulo</option>
+          <option velue="MG">Minas Gerais</option>
+</optgroup>
+      <optgroup label="Região Sul">
+       <option velue="PR">Paraná</option>
+       <option value="SC">Santa Catarina</option>
+       <option velue="RS">Rio Grande do Sul</option>
+     </optgroup>
+   </select>
+</p>
+<p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" maxlength="40" list="cidades" placeholder="Sua Cidade"/></p>
+<datalist id="cidades">
+      <option value="Rio de Janeiro" selected></option>
+      <option value="Nova Iguacu"></option>
+      <option velue="Niterói"></option>
+      <option value="Belford Roxo"></option>
+    </datalist>
+</fieldset>
+
+
+<fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+      <p><label for="cUrg">Grau de Felicidade:</label>Min<input type="range" name="tUrg" id="cUrg" min="0" max="20" step="2"/>Máx</p>
+      <p><textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe Sua Mensagem..."></textarea></p>
+</fieldset>
+
+
+<fieldset id="pagamento"><legend>Quero um Curso</legend>
+      <p><input type="checkbox" name="tPed" id="cPed" checked/>
+           <label for="cPed">Gostaria de adquirir um curso quando disponível.</label></p>
+      <p><label for="cTot">Preço:R$</label><input type="number" name="tTot" id="cTot" roadonly/></p>
+      <p><label for="cCursos">Cursos:</label>
+          <select name="tCursos" id="cCursos">
+            <optgroup label="Cursos para Hardware">
+              <option value="MMM">Montagem e Mannutenção de Micro</option>
+              <option value="MN">Manutenção em Notebooks</option>
+            </optgroup>
+            <optgroup label="Desenvolvimento de Software">
+               <option value="LP">Lógica de Programação</option>
+               <option value="AG">Algoritmo</option>
+            </optgroup>
+          </select>
+        </p>
+
+</fieldset>
+
+<input type="image" name="tEnviar" src="_imagens/botao-enviar.png"/>
+
+</form>
+
+</fieldset>
+</article>
 <footer id="rodape">
 <p>Copyright &copy; 2018 - by Lucas Bruce<br/>
   <span><a href="https://github.com/LucasBruce" target="_blank">Github</a> | <a href="https://br.linkedin.com/in/lucas-matheus-bruce-silva-90a934127" target="blank">Linkedin</a> | <a href="https://www.facebook.com/lucas.matheus.35513" target="blank">Facebook</a></span></p>

@@ -1,13 +1,36 @@
 <html lang="pt-br">
 <head>
  <meta charset="utf-8"/>
-  <title>computer</title>
+  <title>Fontes</title>
    <link rel="stylesheet" href="_css/style.css"/>
     <script>
 function mudaFoto(foto){
   document.getElementById("icone").src=foto;
 }
     </script>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Arvo|Inconsolata');
+
+      header#cabecalho-art h1{
+        font-family: 'Inconsolata', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      header#cabecalho-art h2{
+        background-color: #ffffff;
+        font-size: 13pt;
+        color: #cecece;
+        margin: 0px;
+      }
+
+      header#cabecalho-art h3{
+        color: #606060;
+        font-size: 12pt;
+      }
+    </style>
 </head>
 <body>
   <div id="interface">
@@ -33,14 +56,29 @@ function mudaFoto(foto){
 
 <section id="corpo-comp">
   <article id="noticia-principal">
-    <header id="cabecalho-artigo">
-     <h3>Gabinete>Arquitetura</h3>
-     <h1>Explorando a arquitetura</h1>
+    <header id="cabecalho-art">
+     <h3>Fontes > Conteúdo</h3>
+     <h1>Tabela de Fontes do site</h1>
      <h2>por Lucas Bruce</h2>
      <h3 class="direita">Atualizado em 01/09/2018</h3>
 </header>
-
-
+<fieldset>
+<table id="tabelafonts">
+  <caption>Tabela de Fontes de conteúdo <span>set/2018</span></caption>
+      <tr><td class="ce">RBtech</td><td class="cd"><a href="https://www.youtube.com/channel/UCVEa_x1n5FwWrxH00MrDPzQ" target="_blank">RBtech-Canal-de-Cursos</a></td></tr>
+      <tr><td class="ce">Tecmundo</td><td class="cd"><a href="https://www.tecmundo.com.br/hardware/1906-manutencao-de-pcs-aprenda-a-abrir-o-gabinete-do-computador.htm" target="_blank">Tecmundo-Hardware-Manutenção</a></td></tr>
+      <tr><td class="ce">Wikipedia</td><td class="cd"><a href="https://pt.wikipedia.org/wiki/Unidade_central_de_processamento" target="_blank">CPU</a></td></tr>
+      <tr><td class="ce">Wikipedia</td><td class="cd"><a href="https://pt.wikipedia.org/wiki/Computador_qu%C3%A2ntico">Computador-Quântico</a></td></tr>
+      <tr><td class="ce">Canaltech</td><td class="cd"><a href="https://canaltech.com.br/inovacao/saiba-quais-empresas-estao-apostando-na-computacao-quantica-117272/" target="_blank">Computação-Quântica</a></td></tr>
+      <tr><td class="ce">Infoescola</td><td class="cd"><a href="https://www.infoescola.com/informatica/leitor-e-gravador-de-cddvd/" target="_blank">Leitor-CD/DVD</a></td></tr>
+      <tr><td class="ce">Wikipedia</td><td class="cd"><a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e">Placa-Mãe</a></td></tr>
+      <tr><td class="ce">Infoescola</td><td class="cd"><a href="https://www.infoescola.com/informatica/disco-rigido/" target="_blank">Disco-Rígido</a></td></tr>
+      <tr><td class="ce">Wikipedia</td><td class="cd"><a href="https://pt.wikipedia.org/wiki/Placa_de_rede" target="_blank">Placa-de-Rede</a></td></tr>
+      <tr><td class="ce">Gifimage</td><td class="cd"><a href="http://gifimage.net/atomo-3d-gif-12/" target="_blank">Gif-átomo</a></td></tr>
+      <tr><td class="ce">Fazfacil</td><td class="cd"><a href="https://www.fazfacil.com.br/manutencao/dicas-manutencao-computador/" target="_blank">Manutenção</td></tr>
+</table>
+</fieldset>
+</article>
 <footer id="rodape">
 <p>Copyright &copy; 2018 - by Lucas Bruce<br/>
   <span><a href="https://github.com/LucasBruce" target="_blank">Github</a> | <a href="https://br.linkedin.com/in/lucas-matheus-bruce-silva-90a934127" target="blank">Linkedin</a> | <a href="https://www.facebook.com/lucas.matheus.35513" target="blank">Facebook</a></span></p>
