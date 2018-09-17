@@ -91,9 +91,9 @@ function calc_tot(){
 
 
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
-      <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="40" placeholder="Nome Completo"/></p>
-      <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos"/></p>
-      <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="@E-mail"/></p>
+      <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="40" placeholder="Nome Completo" required/></p>
+      <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos" required/></p>
+      <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="@E-mail" required/></p>
 <fieldset id="sexo"><legend>Sexo:</legend>
          <p><input type="radio" name="tSexo" id="cMusc" checked/><label for="cMusc">Masculino</label></p>
          <p><input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label></p>
@@ -103,10 +103,11 @@ function calc_tot(){
 
 
 <fieldset id="endereco"><legend>Endereco do Usuário</legend>
-     <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Trav, Av..."/></p>
+     <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Trav, Av..." required/></p>
+     <p><label for="cCep">Cep:</label><input name="tCep" id="cCep" required pattern="\d{5}-?\d{3}"/><p>
      <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="9999" value="0"/></p>
      <p><label for="cEst">Estado:</label>
-       <select name="tEst" id="cEst">
+       <select name="tEst" id="cEst" >
          <optgroup label="Região Sudoeste">
           <option value="RJ">Rio de Janeiro</option>
           <option value="SP" selected>São Paulo</option>
@@ -119,7 +120,7 @@ function calc_tot(){
      </optgroup>
    </select>
 </p>
-<p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" maxlength="40" list="cidades" placeholder="Sua Cidade"/></p>
+<p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" maxlength="40" list="cidades" placeholder="Sua Cidade" required/></p>
 <datalist id="cidades">
       <option value="Rio de Janeiro" selected></option>
       <option value="Nova Iguacu"></option>
