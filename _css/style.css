@@ -113,7 +113,8 @@ figure.img-legenda:hover figcaption{
 nav#menu ul{
   list-style: none;
   text-transform: uppercase;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   top: -20px;
   left: 430px;
 }
@@ -184,7 +185,8 @@ aside#lateral h2{
   background-color: #606060;
   font-size: 13pt;
   color: #ffffff;
-  padding: 5px;
+  padding: 10px;
+  background-color: #dddddd;
 }
 
 .galeria{
